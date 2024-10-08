@@ -73,16 +73,16 @@ function QuoteForm() {
         <>
             
 
-            <div className="flex justify-center md:mt-32 mt-16 ">
+            <div className="flex justify-center md:mt-16 mt-20  w-full ">
                 <div>
-                    <h1 className="md:text-5xl font-semibold text-3xl text-center mt-8 ">React Multi Step Form</h1>
+                    <h1 className="md:text-5xl font-semibold text-3xl text-center ">React Multi Step Form</h1>
                     <h2 className="md:text-3xl font-medium text-2xl text-center mt-3">Calculate Cost</h2>
                     <p className="md:text-2xl text-red-700 text-xl text-center mt-3">Please Fill Up The Below Requirements</p>
                 </div>
             </div>
 
-            <div className="md:mt-16 mt-8 ">
-                <div className="mx-auto shadow-md rounded-2xl pb-8 bg-gray-50 mt-10">
+            <div className=" mt-4">
+                <div className="mx-auto shadow-md rounded-2xl pb-8  mt-10">
                     <div className="container horizontal mt-5 justify-center mx-auto md:px-64">
                         <Stepper steps={steps} currentStep={currentStep} />
                         <div className="my-10 p-10 mx-auto">
@@ -94,7 +94,7 @@ function QuoteForm() {
                     <StepperControl handleClick={handleClick} currentStep={currentStep} steps={steps} />
                 </div>
             </div>
-          
+
 
             <ToastContainer position="top-right mt-36" autoClose={5000} hideProgressBar={false} />
         </>
