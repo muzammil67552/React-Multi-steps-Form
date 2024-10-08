@@ -72,8 +72,8 @@ function QuoteForm() {
     return (
         <>
             
-
-            <div className="flex justify-center md:mt-16 mt-20  w-full ">
+            <div className="w-full mx-auto">
+            <div className="flex justify-center md:mt-16 mt-20  ">
                 <div>
                     <h1 className="md:text-5xl font-semibold text-3xl text-center ">React Multi Step Form</h1>
                     <h2 className="md:text-3xl font-medium text-2xl text-center mt-3">Calculate Cost</h2>
@@ -93,6 +93,7 @@ function QuoteForm() {
                     </div>
                     <StepperControl handleClick={handleClick} currentStep={currentStep} steps={steps} />
                 </div>
+            </div>
             </div>
 
 
